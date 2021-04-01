@@ -50,4 +50,3 @@ class Item():
     def code(self,code):
         self.__code = code
   
-new_item = Item(name = "test",price=100, metherial= Metherial.NATURAL, origin_country=OriginCountry.UKRAINE,code='12346')

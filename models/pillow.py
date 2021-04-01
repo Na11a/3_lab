@@ -1,7 +1,7 @@
 from enum import Enum
-from item import Item
-from item import OriginCountry
-from item import Metherial
+from .item import Item
+from .item import OriginCountry
+from .item import Metherial
 
 class PillowForm(Enum):
     CIRCLE = 0
@@ -20,4 +20,3 @@ class Pillow(Item):
         return "width:{}\n heigth: {} \n length:{} \n form: {} \n color: {} \n".format(self.width,self.heigth,self.length,self.form,self.color)
          
 pillow = Pillow(name = "pillow", price = 1325, code = "125")
-print(pillow.metherial)

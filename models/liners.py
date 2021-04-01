@@ -1,5 +1,5 @@
-from pillow import Pillow
-from sheet import Sheet
+from .pillow import Pillow
+from .sheet import Sheet
 
 class Liners(Pillow,Sheet):
     def __init__(self,name_pillow, name_sheet, price_pillow, price_sheet,pillowcases = 1, design = "standart"):

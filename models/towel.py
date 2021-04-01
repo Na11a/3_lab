@@ -1,5 +1,5 @@
-from item import Item
-from item import OriginCountry,Metherial
+from .item import Item
+from .item import OriginCountry,Metherial
 
 class Towel(Item):
     def __init__(self,name, price,width_mm = 200,length_mm = 300, number_in_the_set = 2,metherial = Metherial.NATURAL, origin_country = OriginCountry.UKRAINE,code = "",with_print = False):
